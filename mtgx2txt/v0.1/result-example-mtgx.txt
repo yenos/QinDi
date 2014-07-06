@@ -1,0 +1,16 @@
+# === Summary === #
+IP Count : 4
+Dom Count : 1
+Sub Count : 1
+
+# === IP Extracted from Casefile example.mtgx === #
+74.207.243.1
+74.207.243.2
+74.207.243.3
+74.207.243.4
+
+# === Domains Extracted from Casefile example.mtgx === #
+domaine.com
+
+# === Subdomaines Extracted from Casefile example.mtgx === #
+sub.domaine.com
