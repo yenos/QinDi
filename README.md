@@ -31,3 +31,29 @@ $ python3 mtgx2txt.py example.mtgx
 > [SD] sub.domaine.com <br />
 >  <br />
 > result-example-mtgx.txt successfully created! <br /> 
+
+## ioc2txt (Python)
+
+### What are you doing?
+Script to extract the value of domainsand IPv4 in Mandiant IOC (*.ioc) file. The output is stdout and a txt file.
+
+### What's may come next?
+- Better arguments and options handling
+- Output in a database
+- Snort rules as output
+
+### Usage
+$ python3 ioc2txt.py [ioc file]
+
+### Example 
+$ python3 ioc2txt.py Alienvault-RedOctober.ioc
+> [IP] 141.101.239.225 <br />
+> [IP] 178.162.129.237 <br />
+> [IP] 178.162.182.42 <br />
+> [IP] 178.63.208.49 <br />
+> [... troncated ...] <br />
+> [DO] winupdateos.com<br />
+> [DO] world-mobile-congress.com<br />
+> [DO] xponlineupdate.com<br />
+>  <br />
+> result-Alienvault-RedOctober-ioc.txt seccessfully created! 
