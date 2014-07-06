@@ -2,6 +2,8 @@ QinDi
 =====
 
 Quick n' Dirty scripts Repositories
+- mtgx2txt: extract domains, subdomains and IP from a Paterva Casefile file (*.mtgx)
+- ioc2txt: extract IP and domains from a Mandiant IOC file (*.ioc)
 
 =====
 # List
